@@ -1,0 +1,36 @@
+.time-date{
+    position: absolute;
+    bottom: 20px;
+    left:10px;
+    display:flex;
+    flex-direction: column;
+    color: antiquewhite;
+    
+}
+@media (max-width:500px) {
+    .time-date{font-size: 10px;
+    }
+    
+}
+@media (max-width:500px) {
+    .location{font-size: 10px;
+    }
+    
+}
+.location{
+    position: relative;
+    top:  10px;
+    left: 10px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:390px) {
+    .location{
+        font-size: 7px;
+    }
+    .time-date{
+        font-size: 7px;
+    }
+    
+}
